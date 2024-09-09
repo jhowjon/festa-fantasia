@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "CF Halloween";
+  src: url("../fonts/CFHalloween-Regular.eot");
+  src: url("../fonts/CFHalloween-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CFHalloween-Regular.woff2") format("woff2"),
+    url("../fonts/CFHalloween-Regular.woff") format("woff"),
+    url("../fonts/CFHalloween-Regular.ttf") format("truetype"),
+    url("../fonts/CFHalloween-Regular.svg#CFHalloween-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

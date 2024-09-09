@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Midnight Minutes";
+  src: url("../fonts/MidnightMinutesRegular.eot");
+  src: url("../fonts/MidnightMinutesRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/MidnightMinutesRegular.woff2") format("woff2"),
+    url("../fonts/MidnightMinutesRegular.woff") format("woff"),
+    url("../fonts/MidnightMinutesRegular.ttf") format("truetype"),
+    url("../fonts/MidnightMinutesRegular.svg#MidnightMinutesRegular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

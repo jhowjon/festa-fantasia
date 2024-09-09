@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts-one.css" />
+    <link rel="stylesheet" href="./fonts/fonts-two.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>🎃 Festa Fantasia J&V</title>
+  </head>
+  <body class="main">
+    <h1 class="title">🎃 FESTA FANTASIA J&V 🎃</h1>
+    <form class="form" id="sheetdb-form">
+      <div class="form__container">
+        <div class="form__content">
+          <label class="form__title">NOME COMPLETO</label>
+
+          <input
+            id="name"
+            class="form__input"
+            type="text"
+            placeholder="Digite o seu nome"
+            name="data[NOME]"
+            required
+          />
+
+          <label class="form__title">
+            VOCE FOI CONVIDADO PARA PARTICIPAR NO DIA 19 DE OUTUBRO DAS 18h -
+            22h</label
+          >
+          <div>
+            <input
+              class="form__input-radio"
+              id="aceito-convite"
+              type="radio"
+              name="data[PARTICIPACAO]"
+              value="Convite Aceito"
+              required
+            />
+            <label for="aceito-convite">Aceito o Convite</label>
+          </div>
+          <div>
+            <input
+              class="form__input-radio"
+              id="recuso-convite"
+              type="radio"
+              name="data[PARTICIPACAO]"
+              value="Convite Recusado"
+              required
+            />
+            <label for="recuso-convite">Recuso o Convite</label>
+          </div>
+          <label class="form__title">
+            Selecione algum tipo de contribuição</label
+          >
+          <div>
+            <input
+              class="form__input-radio"
+              id="all-incluse"
+              type="radio"
+              name="data[CONTRIBUICAO]"
+              value="Tudo incluso"
+              required
+            />
+            <label for="all-incluse"
+              >Contribuição de R$ 50,00 - All incluse (Comida, Salgadinhos,
+              Docinhos e Bebidas - alcoólicas não inclusas)</label
+            >
+          </div>
+
+          <div>
+            <input
+              class="form__input-radio"
+              id="prato-feito"
+              type="radio"
+              name="data[CONTRIBUICAO]"
+              value="Levar um prato"
+              required
+            />
+            <label for="prato-feito"
+              >Trazer um prato bem feito (Base 30 pessoas)
+            </label>
+          </div>
+
+          <div class="form__content">
+            <label class="form__title"
+              >Se for trazer um prato, por favor, especifique o que pretende
+              trazer</label
+            >
+            <textarea
+              class="form__input-text-area"
+              name="data[TIPO DO PRATO]"
+              id="sugestions"
+              placeholder="Ex: 30 lanches de peito de peru, 30 hot dogs"
+            ></textarea>
+          </div>
+          <div class="form__content">
+            <label class="form__title">COMENTARIOS OU SUEGESTÕES</label>
+            <textarea
+              class="form__input-text-area"
+              name="data[SUGESTAO]"
+              id="sugestions"
+              placeholder="Digite alguma sugestão"
+            ></textarea>
+          </div>
+          <button type="submit" class="form__button">ENVIAR</button>
+        </div>
+      </div>
+    </form>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
